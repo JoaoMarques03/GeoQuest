@@ -27,7 +27,6 @@ create table locations (
     location_name VARCHAR NOT NULL,
     longitude DECIMAL NOT NULL,
     latitude DECIMAL NOT NULL,
-    name VARCHAR NULL
 );
 
 -- Add categories locations
@@ -35,7 +34,6 @@ comment on column locations.location_name is 'The location''s name';
 comment on column locations.location_id is 'The location''s id';
 comment on column locations.longitude is 'The locations''s longitude';
 comment on column locations.latitude is 'The location''s latitude';
-comment on column locations.name is 'The location''s name';
 
 create table photos (
     photo_id SERIAL NOT NULL CONSTRAINT photos_pkey PRIMARY KEY,

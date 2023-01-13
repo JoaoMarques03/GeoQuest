@@ -9,9 +9,8 @@ Roberta Santos, 20211091
 
 # Introdução:
 
-A aplicação é um jogo inspirado no Geoguesser, jogo geográfico que consiste em identificar diferentes locais do mundo através de imagens. Já o GeoQuest é um jogo que faz com que o seu utilizador conheça melhor o espaço a sua volta através de imagens, onde o mesmo tem de encontrar essas localizações.
+A aplicação é uma app inspirado no Geoguesser, jogo geográfico que consiste em identificar diferentes locais do mundo através de imagens. Já o GeoQuest é um jogo que faz com que o seu utilizador conheça melhor o espaço a sua volta através de imagens, onde o mesmo tem de encontrar essas localizações.
 
-O jogador poderá escolher entre três modos de jogo diferentes: Short Game (10 minutos de duração), Normal Game (30 minutos de duração), Long Game (60 minutos de duração) e poderá cancelar o jogo a qualquer momento.
 
 Para cada modo de jogo existirá um sistema de leaderboards, em que os jogadores podem submeter e comparar as suas pontuações. A pontuação atribuída será dependente da quantidade de locais encontrados, como também a distância percorrida (em metros) durante o jogo.
 
@@ -26,7 +25,7 @@ Agora com as coisas a voltarem à normalidade o turismo tem tido um grande aumen
 
 Mas ao GeoQuest vem para ajudar, pois tem como objetivo incentivar o seu utilizador a movimentar-se e melhorar o seu condicionamento físico bem como conhecer melhor a cidade de Lisboa. 
 
-O GeoQuest é um jogo que une o bem-estar e o prazer de sightseeing ao redor da cidade de Lisboa. É uma app que incentiva o seu utilizador a conhecer o ambiente a sua volta. Através de imagens de locais de uma determinada área, onde o mesmo é desafiado a encontrar o máximo de localizações para que possa acumular o máximo de pontos.
+O GeoQuest é uma app que une o bem-estar e o prazer de sightseeing ao redor da cidade de Lisboa. É uma app que incentiva o seu utilizador a conhecer o ambiente a sua volta. Através de imagens de locais de uma determinada área, onde o mesmo é desafiado a encontrar o máximo de localizações para que possa acumular o máximo de pontos.
 
 Desta forma a aplicação incentiva a prática de hábitos saudáveis, estimula o turismo ao redor de pontos icónicos da capital lusitana, proporcionando um aumento do turismo da região.
 
@@ -53,9 +52,46 @@ FitPotato
 -FitPotato é uma app que paga aos seus utilizadores por estes andarem, correrem ou apenas passearem o seu animal de estimação. Esta funciona como um pedómetro, dependendo do número de passos dados, maior será a recompensa. Esta app, bem como a nossa incentiva os seus utilizadores a darem passos e, assim, terem melhor práticas de saúde.
 
 # Guiões:
-Guião 1 (Core):
 
-O João, de 22 anos, é um turista inglês que está a passar férias em Portugal. Interessado em conhecer melhor a cidade de Lisboa, ele decide instalar o GeoQuest e fazer um jogo rápido de 10 minutos.
+
+Guião 1 (Registo):
+
+
+Um utilizador que instalou a aplicação pela primeira fez quer registar uma nova conta GeoQuest.
+
+O processo seria:
+
+Passo 1: Inicialização da aplicação
+
+Passo 2: O utilizador seleciona a opção "Need na account? Sign up"
+
+Passo 3: O utilizador introduz os dados necessários
+
+Passo 4: O utilizador pressiona o botão de “sign up”
+
+Passo 5: O utilizador, assim, cria uma nova conta GeoQuest 
+
+
+Guião 2 (Login):
+
+
+Um utilizador pretende fazer o login na aplicação
+
+Assumindo que já tem uma conta, o processo seria:
+
+Passo 1: Inicialização da aplicação
+
+Passo 2: O utilizador insere o username e a password
+
+Passo 3: O utilizador carrega no botão de login
+
+Passo 4: O utilizador, assim, completa o login
+
+
+Guião 3 (Ver lista de lugares):
+
+
+Um utilizador, que usa a aplicação frequentemente, pretende iniciar uma caminhada no GeoQuest. 
 
 Assumindo que este já tem uma conta GeoQuest registado, o processo seria:
 
@@ -65,41 +101,12 @@ Passo 2: O utilizador faz login na sua conta GeoQuest ao digitar o seu nome de u
 
 Passo 3: O utilizador seleciona a opção "Start Game"
 
-Passo 4: O utilizador seleciona o modo de jogo "Short Game"
+Passo 4: O utilizador seleciona a opção "Start"
 
-Passo 5: O utilizador joga durante 10 minutos
+Passo 5: No ecrã do mapa, o utilizador pressiona o botão “Places”
 
-Passo 6: O jogo acaba e é apresentada a pontuação final ao utilizador consoante a sua performance
+Passo 6: Após aparecer a lista, o utilizador seleciona o lugar que deseja ver 
 
-Guião 2 (Leaderboard):
-
-A Maria, de 18 anos, que utiliza o GeoQuest frequentemente, acabou de bater o seu recorde de pontuação, e quer verificar o seu lugar na leaderboard.
-
-Assumindo que o modo de jogo que o utilizado jogou foi o "Long Game", o processo seria:
-
-Passo 1: Inicialização da aplicação
-
-Passo 2: O utilizador faz login na sua conta GeoQuest ao digitar o seu nome de utilizador e palavra-passe
-
-Passo 3: O utilizador seleciona a opção "Leaderboards"
-
-Passo 4: O utilizador seleciona o modo de jogo "Long Game"
-
-Passo 5: É apresentada a leaderboard do modo de jogo "Long Game" ao utilizador, com destaque à sua pontuação
-
-Guião 3 (Registo):
-
-O Roberto, de 25 anos, foi recomendado o GeoQuest por um amigo como uma maneira divertida de fazer exercício físico. Como é a primeira fez que usa o GeoQuest, ele quer registar uma nova conta.
-
-O processo seria:
-
-Passo 1: Inicialização da aplicação
-
-Passo 2: O utilizador seleciona a opção "Register a GeoQuest account"
-
-Passo 3: O utilizador introduz o nome de utilizador e palavra-passe que quer ter
-
-Passo 4: O utilizador faz login na sua nova conta GeoQuest pela primeira fez
 
 # Descrição da solução a implementar:
 

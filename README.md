@@ -151,4 +151,4 @@ Primeira proposta: Documentos>g04-proposta-v1.pdf
 
 Segunda proposta: Documentos>g04-proposta-v2.pdf
 
-Proposta final: Documentos> 
+Proposta final: Documentos>g04-propostafinal.pdf
